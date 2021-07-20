@@ -1,0 +1,9 @@
+{
+    "token":"TuToken",
+    "prefix":"Prefix",
+    "bienvenida": "Imagen de bienvenida",
+    "autoreactchannel": "IDdalCanal | dejalo vacio si no quieres un canal de autorecciones",
+    "emojis": ["emoji1", "emoji2"],
+    "autoroles": ["id del rol de usuario", "id del rol de bot"],
+    "bienvenidac": "ID del canal de bienvenidas" 
+}

@@ -1,0 +1,27 @@
+{
+  "name": "nosesisaid-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "canvas": "^2.8.0",
+    "config.json": "^0.0.4",
+    "discord-together": "^1.1.14",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "fumo-api": "^2.0.5",
+    "moment": "^2.29.1",
+    "node-schedule": "^2.0.0",
+    "slash-command-discord.js": "^1.2.6",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
