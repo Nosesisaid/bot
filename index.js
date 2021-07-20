@@ -1,8 +1,8 @@
 const Canvas = require("canvas");
 const fs = require('fs');
 const Discord = require('discord.js');
-const prefix = '!';
-const token = process.env.DISTOKEN;
+
+
 const slashManager = require('slash-command-discord.js');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -10,6 +10,8 @@ const config = require("config.json")("./config.json")
 client.cooldowns = new Discord.Collection();
  const clientuserid = "851836481190002016"
 const commandFolders = fs.readdirSync('./commands');
+const prefix = confgig.prefix
+const token = config.token
 for (const folder of commandFolders) {
 	const commandFiles = fs
 		.readdirSync(`./commands/${folder}`)
