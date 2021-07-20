@@ -10,4 +10,4 @@ Descarga la ultima versión del codigo desde [realeases](https://github.com/Nose
 Para empezar empezar cambia el nombre de [config.example.json](./config.example.json) y cambia el token y prefix.
 
 ### Empezar 
-Para empezar debes usar [node.js](https://nodejs.org), una vez instalado en la carpeta del bot escribe `node index.js`
+Para empezar debes usar [node.js](https://nodejs.org), una vez instalado en la carpeta del bot escribe `npm install` para instalar todas las dependencias necesarias y `node index.js`
